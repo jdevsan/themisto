@@ -12,7 +12,7 @@ app.set('port', process.env.PORT || 4000);
 
 // Middlewares
 app.use(morgan('dev'));
-app.use(bodyParser.urlencoded({extended: true}));
+app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 
 let products = require('./routes/products');

@@ -1,10 +1,9 @@
 {
-  "name": "ls",
+  "name": "Themisto",
   "version": "1.0.0",
   "description": "themisto",
-  "main": "index.js",
   "scripts": {
-    "start":"node index.js",
+    "start":"node app/index.js",
     "dev": "nodemon app/index.js"
   },
   "author": "",

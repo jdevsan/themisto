@@ -1,5 +1,4 @@
 const puppeteer = require('puppeteer');
-const _ = require('lodash');
 const {cleanString, trimCategory, trimDesc } = require('../utils/utils');
 const axios = require('axios');
 

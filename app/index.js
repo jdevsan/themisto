@@ -16,7 +16,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 
 let products = require('./routes/products');
-app.use('/', products);
+app.use('/api', products);
 
 // Starting
 app.listen(app.get('port'), () => {

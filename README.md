@@ -29,8 +29,17 @@ Direccion github: https://github.com/pepecachivache/themisto.git Pasos: Crear un
  ```
  
  Themisto comenzará escuchar en el puerto 4000...
- 
+  
  ## Heroku:
+1. Crear cuenta en heroku.
+2. Crear App.
+3. Descargar Heroky CLi.
+4. Inicializar repositorio(en caso de no existir)
+5. Agregar origin de heroku app.
+6. Agregar archivos.
+7. Commit archivos.
+8. Push to heroku .
+
 ### Themistos
 Url api: https://themisto.herokuapp.com/
 Url api process order: https://themistos.herokuapp.com/api/process

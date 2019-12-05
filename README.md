@@ -30,6 +30,11 @@ Direccion github: https://github.com/pepecachivache/themisto.git Pasos: Crear un
  
  Themisto comenzará escuchar en el puerto 4000...
  
+ ## Heroku:
+### Themistos
+Url api: https://themisto.herokuapp.com/
+Url api process order: https://themistos.herokuapp.com/api/process
+ 
 
  
  

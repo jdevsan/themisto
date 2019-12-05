@@ -60,7 +60,7 @@ module.exports = {
             //send to ganymede after process search.
             axios
             .post(url, resultObj)
-            .then(console.log('Sending results to Ganymede...'))
+            .then(res => res.json('Sending results to Ganymede...'))
             .catch(err => console.log(err));
             await browser.close(); 
         }
